@@ -1,0 +1,47 @@
+<template>
+  <div class="calculator">
+    <div class="screen">{{ result }}</div>
+    <div class="row">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>=</button>
+    </div>
+    <div class="row">
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>C</button>
+    </div>
+    <div class="row">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>AC</button>
+    </div>
+    <div class="row">
+      <button>+/-</button>
+      <button>0</button>
+      <button>,</button>
+      <button>%</button>
+    </div>
+    <div class="row">
+      <button>+</button>
+      <button>-</button>
+      <button>x</button>
+      <button>÷</button>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'calculator',
+    data() {
+      return {
+        result: 0
+      }
+    }
+  }
+
+</script>
